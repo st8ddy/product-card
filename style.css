@@ -1,14 +1,13 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
   font-family: 'Montserrat', Arial;
   color: #515076;
-  font-size: 13px;
   line-height: 18px;
 }
 
-.bg-flower {
+.bg-white-flower {
   width: 1470px;
   height: 408px;
   background-image: url('/img/background-title.png');
@@ -26,6 +25,7 @@
 }
 
 .product-list {
+  font-size: 13px;
   margin: 0px 85px 115px 85px;
   list-style: none;
   display: flex;
@@ -66,15 +66,11 @@
 }
 
 .product-price {
+  font-size: 20px;
   display: flex;
   justify-content: space-between;
 }
 
 .price-label {
   font-weight: 700;
-  font-size: 20px;
-}
-
-.price-value {
-  font-size: 20px;
 }
